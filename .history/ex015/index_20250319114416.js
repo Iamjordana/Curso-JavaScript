@@ -1,0 +1,3 @@
+var num = [5,8,4]; //0,1,3,...
+
+console.log(nosso vetyor é: ${num}); //nosso vetor é: 5,8,4

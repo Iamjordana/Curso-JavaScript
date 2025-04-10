@@ -1,0 +1,3 @@
+fuction comerPizza(){
+    while(teFatia())
+}

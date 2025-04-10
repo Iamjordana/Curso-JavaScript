@@ -1,0 +1,3 @@
+var num = [5,8,4]; //0,1,3,...
+ num[3] = 6; //adiciona o valor 6 na posição 3
+console.log(`Nosso vetor é o ${num}`);

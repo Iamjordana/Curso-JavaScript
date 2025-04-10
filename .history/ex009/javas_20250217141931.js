@@ -1,0 +1,2 @@
+var país = 'Brasil'
+consol

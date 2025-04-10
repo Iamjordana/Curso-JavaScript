@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        color: white;}
+        #area{
+            font: normal 20px 'Courier New', Courier, monospace;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 0, 0);
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter = "entrar()">
+        Interaja... 
+    </div>
+    <script>
+        var area = window.document.getElementById('area');
+        function clicar(){
+            area.innerText = 'Clicou!';
+        }
+        function sair()
+    </script>
+</body>
+</html>
